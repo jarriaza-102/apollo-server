@@ -18,6 +18,11 @@ export {
   PlaygroundRenderPageOptions,
 } from 'apollo-server-core';
 
+export {
+    graphqlExpress,
+    graphiqlExpress
+} from 'expressApollo';
+
 export * from 'graphql-tools';
 export * from 'graphql-subscriptions';
 
